@@ -1,10 +1,10 @@
 cask "acuity" do
-  version "0.1.0"
-  sha256 :no_check # updated automatically by tap-update.yml on each release
+  version "0.2.0"
+  sha256 "f6511f1ee353bd8e0a6ea90b5f4cb9c4397ee956d449f3ac8ed37bbd057a4fd2"
 
   url "https://github.com/paulhkang94/acuity/releases/download/v#{version}/Acuity-#{version}.zip"
   name "Acuity"
-  desc "Native macOS HiDPI scaling for external monitors — no SIP, no private entitlements"
+  desc "Native macOS HiDPI scaling for external monitors - no SIP, no private entitlements"
   homepage "https://github.com/paulhkang94/acuity"
 
   livecheck do
